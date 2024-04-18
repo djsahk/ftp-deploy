@@ -1,0 +1,19 @@
+{
+  "name": "djsahk-ftp-deploy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Deploy local files to an FTP server",
+  "author": "djsahk",
+  "main": "gulpfile.js",
+  "keywords": ["ftp", "deploy"],
+  "private": false,
+  "bin": {
+    "deploy": "./bin/deploy.js"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1",
+    "minimist": "^1.2.8"
+  }
+}
